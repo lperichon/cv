@@ -1,0 +1,71 @@
+/*
+Original design: andreas05 (v2.5 - Apr 24, 2008) - A free xhtml/css website template by Andreas Viklund.
+For more information, see http://andreasviklund.com/templates/andreas05/
+*/
+
+/* General tags */
+* {margin:0; padding:0;}
+body {background:#cccccc url(bodybg.gif) repeat; font:76% verdana,tahoma,sans-serif; color:#555555;}
+a {background-color:inherit; color:#286ea0; font-weight:bold; text-decoration:none;}
+a:hover {text-decoration:underline;}
+p {margin:0 0 16px 0;}
+#main p b{ float: left; display: inline;}
+#main p span {float: left; display:inline;} /* para el bloque direccion en contacto*/
+#main ul li b.activities{ float: left; display: inline;}
+#main ul li span {float: left; display:inline;} /* para el bloque actividades en educacion*/
+ul, ol {margin:0 0 5px 15px; padding-left:5px;}
+ul ul, ol ol {margin:3px 0 3px 15px;}
+img {float:left; margin:0 10px 5px 0;}
+
+/* Headers */
+h1 {color:#555; font-size:3.6em; letter-spacing:-3px; margin:0; text-align:right;}
+h2 {font-size:1.6em; font-weight:normal; letter-spacing:-1px; margin:5px 0 10px;}
+
+/* IDs */
+#title {margin:20px auto -12px; width:700px;}
+#container { background:#fff /* url(front.png) bottom left no-repeat*/ ; border:20px solid #555; color:#555; margin:0 auto 15px; padding:10px; width:700px; line-height:1.3em;}
+#sidebar {float:left; padding-left:10px; width:170px;}
+#sidebar p {margin:10px 0 5px 10px; text-align:left; font-size:0.8em;}
+#sidebar p a {font-weight:400;}
+#main {float:left; width:515px; padding-top:30px; padding-bottom:5px}
+#footer {clear:both; color:#aaa;}
+
+/* Menu */
+.menu {border:1px solid #ffffff; color:#286ea0; display:block; font-size:1.1em; font-weight:bold; padding:4px 2px 4px 10px; width:110px;}
+.menu:hover {background-color:#f8f8f8; border:1px solid #cccccc; color:#333333; text-decoration:none;}
+
+/* Various classes */
+.credits {color:#777; font-size:0.9em; margin-bottom:0;}
+.credits a {color:#777;}
+
+#cloud a.tag1 { font-size: 0.7em; font-weight: 100; }
+#cloud a.tag2 { font-size: 0.8em; font-weight: 200; }
+#cloud a.tag3 { font-size: 0.9em; font-weight: 300; }
+#cloud a.tag4 { font-size: 1.0em; font-weight: 400; }
+#cloud a.tag5 { font-size: 1.2em; font-weight: 500; }
+#cloud a.tag6 { font-size: 1.4em; font-weight: 600; }
+#cloud a.tag7 { font-size: 1.6em; font-weight: 700; }
+#cloud a.tag8 { font-size: 1.8em; font-weight: 800; }
+#cloud a.tag9 { font-size: 2.2em; font-weight: 900; }
+#cloud a.tag10 { font-size: 2.5em; font-weight: 900; }
+
+#cloud { padding: 2px; line-height: 2em; text-align: center; }
+#cloud a { padding: 0px; }
+#cloud { margin: 10px; }
+#cloud li { display: inline; }
+
+.data{ margin-top:5px; margin-bottom:10px;}
+
+ul li p {margin-bottom:5px;}
+
+#contact{margin-left:50px; margin-top:30px;}
+#contact p{margin:0;}
+.contact_photo{}
+.contact_data b{width:80px;}
+.contact_data p img {float: none;margin:0;}
+
+.old {font-size:0.9em;opacity:.7;}
+.really_old {font-size:0.8em;opacity:.5;}
+
+#sidebar p a.linked_in{display:block; background: url(linkedin.png) no-repeat;text-indent:-1000px;}
+#sidebar p a.delicious{display:block; background: url(delicious.png) no-repeat;text-indent:-1000px;}
